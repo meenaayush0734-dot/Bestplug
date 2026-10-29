@@ -1,0 +1,21 @@
+# ---- Homes ----
+max-homes: 3                 # personal homes (pehle 2 tha)
+neta-max-homes: 5            # Neta rank wale players
+team-max-homes: 3            # ek team ke kitne team homes ho sakte hain
+home-cooldown-minutes: 10    # /home ek baar ke baad itne minute tak dobara nahi (pehle 24h me 3 uses tha)
+
+# ---- Discord auto-link (chat me "discord" likhne par bot ye link bhejta hai) ----
+# Ise sirf OP players /discordlink set <link> se change kar sakte hain
+discord-link: https://discord.gg/ccYUmyTPsc
+
+# ---- Indicator (hearts + hotbar) ----
+show-player-hearts: true
+show-mob-hearts: true
+show-player-hotbar: true
+mob-hearts-only-when-damaged: false
+radius: 24.0
+update-ticks: 2
+view-range: 0.5              # dot-product threshold (0.5 ~ 60 degree cone); kitna saamne dekhne par dikhe
+player-hearts-height: 0.8
+player-hotbar-height: 1.15
+mob-hearts-height: 0.45

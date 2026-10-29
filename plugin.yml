@@ -1,0 +1,46 @@
+name: SurvivalPlus
+version: 2.2.0
+main: com.survivalplus.SurvivalPlus
+api-version: "1.21"
+description: Homes, teams (shared enderchest, team homes, allies), hearts/hotbar indicator, nightvision, neta rank, discord auto-link
+commands:
+  sethome:
+    description: Set a home
+    usage: /sethome [name]
+  home:
+    description: Personal ya team home pe jao (10 min cooldown)
+    usage: /home [name]
+  delhome:
+    description: Delete a home
+    usage: /delhome <name>
+  homes:
+    description: Apne homes aur team homes ki list
+    usage: /homes
+  createteam:
+    description: Naya team banao (tum owner banoge)
+    usage: /createteam <name>
+  team:
+    description: Team commands (/team help)
+    usage: /team <help|info|invite|accept|leave|kick|disband|color|admin|enderchest|sethome|delhome|ally>
+    aliases: [t]
+  indicator:
+    description: Hearts/hotbar indicator ON ya OFF (sirf tumhare liye)
+    usage: /indicator <true|false>
+  nightvision:
+    description: Infinite night vision ON ya OFF
+    usage: /nightvision <true|false>
+    aliases: [nv]
+  neta:
+    description: (OP only) Kisi ko Neta rank do ya hatao
+    usage: /neta <player>
+  ec:
+    description: (Neta/OP) Ender chest kholo
+    usage: /ec
+    aliases: [enderchest]
+  discordlink:
+    description: Discord link dekho (OP set kar sakta hai)
+    usage: /discordlink [https://link]
+permissions:
+  survivalplus.bypass:
+    description: Home limit aur /home cooldown ignore karo
+    default: op
